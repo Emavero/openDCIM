@@ -5,9 +5,9 @@ permissions:
 
 on:
   push:
-    branches: [mynewfeature-patch]
+    branches: [mynewfeature-patch,master]
   pull_request:
-    branches: [mynewfeature-patch]
+    branches: [mynewfeature-patch,master]
 
 concurrency:
 
